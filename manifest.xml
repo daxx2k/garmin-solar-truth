@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+  Solar Truth — Connect IQ watch-app (not a watch face)
+  Target: fenix8solar51mm (tactix 8 Solar 51mm / fēnix 8 Solar 51mm)
+  minApiLevel 3.2.0: System.Stats.solarIntensity
+  Background via AppBase.getServiceDelegate() + (:background) annotations
+-->
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application
+        id="76b305ee-3c69-4378-ad1f-915eb7ce27b6"
+        type="watch-app"
+        name="@Strings.AppName"
+        entry="SolarTruthApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="3.2.0">
+
+        <iq:products>
+            <iq:product id="fenix8solar51mm"/>
+        </iq:products>
+
+        <iq:permissions>
+            <iq:uses-permission id="Background"/>
+            <iq:uses-permission id="Fit"/>
+            <iq:uses-permission id="FitContributor"/>
+        </iq:permissions>
+
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

@@ -1,0 +1,32 @@
+# Signing keys and credentials
+*.der
+*.pem
+*.key
+.env
+.env.*
+# Generated binaries and compiler files
+bin/
+build/
+gen/
+external-mir/
+internal-mir/
+*.prg
+*.iq
+*.prg.debug.xml
+# Private watch data and diagnostics
+data/
+logs/
+watch-logs*/
+backups/
+*.DAT
+*.IDX
+*.IMT
+*.fit
+*.FIT
+*.log
+*.BAK
+# Local tools and editors
+tools/
+.vscode/
+.DS_Store
+Thumbs.db
