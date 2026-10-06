@@ -91,6 +91,8 @@ The stability tests passed on the release-candidate source before the display ve
 
 Report issues with watch model, firmware, app version and reproduction steps. Include only diagnostics you intend to make public.
 
-## Copyright
+## License
 
-Copyright © 2026 Davide La Sala. No redistribution license has been granted yet. Garmin trademarks belong to their owners. This is an independent project, not affiliated with or endorsed by Garmin.
+Licensed under the [MIT License](LICENSE), the same license used by vectrex-spotify.
+
+Copyright © 2026 Davide La Sala. Garmin trademarks belong to their owners. This is an independent project, not affiliated with or endorsed by Garmin.
