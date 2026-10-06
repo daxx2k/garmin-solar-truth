@@ -15,6 +15,12 @@ Version: **9.2** · Created by Davide La Sala.
 
 Background sampling runs approximately every five minutes. New installations start with their own readings, without demonstration history. Allow at least two samples for daily estimates.
 
+## August in the real world
+
+![August 2026 solar data](docs/august-2026.svg)
+
+26 archived daily records: **123.7 hours with positive solar readings** and **14.59% cumulative estimated battery benefit**. Five days are missing. These are historical model estimates, not measured electrical energy. [Data coverage and method](docs/august-2026.md).
+
 ## Screenshots
 
 Actual watch photographs, with metadata removed.
